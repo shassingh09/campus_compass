@@ -23,7 +23,7 @@ class App extends React.Component {
     })
     return (
       <div className='tc'>
-        <h1>CAMPUS-CONNECT</h1>
+        <h1>CAMPUS-COMPASS</h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <CardList housings = {filteredHousings}/>
       </div>
