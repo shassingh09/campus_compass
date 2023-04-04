@@ -1,4 +1,4 @@
-# campus_connect
+# Campus-Connect
 
 Tutorial for React To run the project:
 
