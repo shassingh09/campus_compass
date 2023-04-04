@@ -1,4 +1,4 @@
-# Campus-Connect
+# Campus-Compass
 
 Tutorial for React To run the project:
 
