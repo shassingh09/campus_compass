@@ -9,8 +9,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  box-shadow: 0px 0px 10px 0px rgb(2, 2, 2);
+  padding: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(2, 2, 2, 0.397);
   margin: 50px;
   border-radius: 10px;
 }
@@ -32,8 +32,36 @@ h1 {
 }
 
 .navbar-links a:hover {
-  color: #16dbbe;
+  color: #000000;
 }
 .navbar-logo{
   width:20rem;
+  padding-left: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Resize on mobile */
+@media (max-width: 800px){
+  
+  .navbar-links .home{
+    display: none;
+  }
+
+  .navbar-links .sublease{
+    display: none;
+  }
+
+  .navbar-links .searchbox{   
+    display:flex;
+    align-items: center;
+    white-space: pre-line;
+  }
+ 
+  .navbar-logo {
+    display: flex;
+    white-space: pre-line;
+  }
+  
+  
 }

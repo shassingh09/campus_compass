@@ -32,20 +32,14 @@ class Navbar extends React.Component{
                 </div>
 
                 <ul className="navbar-links">
-                    <li>
-                    <SearchBox searchChange={this.onSearchChange}/>
-                    </li>
-                    <li>
+                    <li className='tc grow  br3 pa3 ma1 dib bw2 shadow-5 home'>
                     <a href="/">Home</a>
                     </li>
-                    <li>
-                    <a href="/search">Search</a>
+                    <li className='tc grow  br3 pa3 ma1 dib bw2 shadow-5 sublease'>
+                    <a href="/roommate-finder">Sublease</a>
                     </li>
-                    <li>
-                    <a href="/roommate-finder">Roommate Finder</a>
-                    </li>
-                    <li>
-                    <a href="/about">About</a>
+                    <li className='searchbox'>
+                    <SearchBox searchChange={this.onSearchChange}/>
                     </li>
                 </ul>
             </nav>
