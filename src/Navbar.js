@@ -38,10 +38,10 @@ class Navbar extends React.Component{
                     <li className='tc grow  br3 pa3 ma1 dib bw2 shadow-5 sublease'>
                     <a href="/roommate-finder">Sublease</a>
                     </li>
-                    <li className='searchbox'>
-                    <SearchBox searchChange={this.onSearchChange}/>
-                    </li>
                 </ul>
+            </nav>
+            <nav className='searchbox'>
+                    <SearchBox searchChange={this.onSearchChange}/>
             </nav>
             <CardList housings = {filteredHousings}/> 
         </div>

@@ -44,6 +44,9 @@ h1 {
 /* Resize on mobile */
 @media (max-width: 800px){
   
+  .navbar{
+    display: flex;
+  }
   .navbar-links .home{
     display: none;
   }
@@ -51,16 +54,9 @@ h1 {
   .navbar-links .sublease{
     display: none;
   }
-
-  .navbar-links .searchbox{   
-    display:flex;
-    align-items: center;
-    white-space: pre-line;
-  }
  
   .navbar-logo {
-    display: flex;
-    white-space: pre-line;
+    display: contents;
   }
   
   
